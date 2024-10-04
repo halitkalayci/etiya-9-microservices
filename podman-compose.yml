@@ -1,0 +1,19 @@
+services:
+  mysql:
+    image: docker.io/library/mysql:latest
+    environment:
+       MYSQL_ROOT_PASSWORD: test
+       MYSQL_DATABASE: customer_db
+       MYSQL_USER: my_user
+       MYSQL_PASSWORD: test
+    ports:
+      - "3306:3306"
+  postgresql:
+    image: docker.io/library/postgres:latest
+    environment:
+       POSTGRES_DB: postgres
+       POSTGRES_USER: postgres
+       POSTGRES_PASSWORD: test
+    ports:
+      - "5432:5432"
+

@@ -6,17 +6,28 @@ spring:
       mvc:
         routes:
           - id: customer-service.routing
-            uri: http://localhost:8081 # customerService isimli servicein url bilgilerini buraya fetch et
+            uri: lb://customerservice # load-balancing
             predicates:
               - Path=/api/customers/**
           - id: product-service.routing
-            uri: http://localhost:8080
+            uri: lb://productservice
             predicates:
               - Path=/api/products/**
+          - id: eureka.routing
+            uri: ${eureka.url}
+            predicates:
+              - Path=/eureka/web
+            filters:
+              - SetPath=/
+          - id: eureka.static-files
+            uri: ${eureka.url}
+            predicates:
+              - Path=/eureka/**
 server:
   port: 8090
 
 eureka:
+  url: http://localhost:8888
   instance:
     hostname: localhost
   client:
@@ -24,3 +35,6 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://localhost:8888/eureka/
+
+
+##load balancing algorithm

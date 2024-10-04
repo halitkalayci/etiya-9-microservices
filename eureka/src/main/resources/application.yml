@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eureka
+
+server:
+  port: 8888
+
+# Default olarak, eureka server ya da client paketi entegre eden uygulamalar kendini eurekaya tan?tmaya
+# çal???r.
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false # kendini tan?tmaya çal??mak
+    fetch-registry: false # kendini tan?tan servis bilgilerini çekmeye çal??mak
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/

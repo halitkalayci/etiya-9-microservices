@@ -20,7 +20,30 @@ services:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
+  eureka:
+    image: "localhost/eurekaserver"
+    #build: ./eureka #image build
+    ports:
+      - "8888:8888"
+    environment:
+      - SPRING_CLOUD_CONFIG_PROFILE=dev
+    networks:
+      - common
+  gateway:
+    image: "localhost/gateway"
+    ports:
+      - "8090:8090"
+    networks:
+      - common
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8888/eureka/
+    depends_on:
+      - eureka
 
 volumes:
   mysql_data:
   postgres_data:
+
+networks:
+  common:
+    driver: bridge

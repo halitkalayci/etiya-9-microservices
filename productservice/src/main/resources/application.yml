@@ -1,18 +1,11 @@
 spring:
+  config:
+    import: "optional:configserver:"
   application:
     name: productservice
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    serviceUrl:
-      defaultZone: http://localhost:8888/eureka/
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+  cloud:
+    config:
+      uri: http://localhost:8001
+      profile: dev
+      label: master
+# http://localhost:8001/productservice/dev/master

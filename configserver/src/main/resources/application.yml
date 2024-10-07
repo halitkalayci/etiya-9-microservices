@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/halitkalayci/etiya9-microservices-configurations
+          default-label: master
+
+server:
+  port: 8001

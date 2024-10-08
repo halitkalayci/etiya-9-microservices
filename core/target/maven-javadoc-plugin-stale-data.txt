@@ -1,0 +1,43 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/klyyc/Desktop/Projects/Java/etiya9.microservices/core/src/main/java;C:/Users/klyyc/Desktop/Projects/Java/etiya9.microservices/core/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/klyyc/Desktop/Projects/Java/etiya9.microservices/core/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'core 1.0 API'
+-use
+-version
+-windowtitle
+'core 1.0 API'
+io.github.halitkalayci
+'C:/Users/klyyc/Desktop/Projects/Java/etiya9.microservices/core/src/main/java/io/github/halitkalayci/App.java'
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\src\main\java = 1728382333850
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\generated-sources\annotations = 1728383145920
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\allclasses-index.html = 1728383149749
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\allpackages-index.html = 1728383149752
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\element-list = 1728383149699
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\help-doc.html = 1728383149778
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\index-all.html = 1728383149770
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\index.html = 1728383149772
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\jquery-ui.overrides.css = 1728383149796
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\member-search-index.js = 1728383149758
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\module-search-index.js = 1728383149754
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\overview-tree.html = 1728383149737
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\package-search-index.js = 1728383149756
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\script.js = 1728383149782
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\search.js = 1728383149784
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\stylesheet.css = 1728383149780
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\tag-search-index.js = 1728383149763
+C:\Users\klyyc\Desktop\Projects\Java\etiya9.microservices\core\target\apidocs\type-search-index.js = 1728383149757

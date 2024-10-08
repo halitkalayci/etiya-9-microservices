@@ -5,16 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d20613c-0f89-4140-91d9-1480c671e9a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/halitkalayci/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/halitkalayci/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/class-use/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/class-use/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/core-1.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/core-1.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-io.github.halitkalayci.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-io.github.halitkalayci.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/io.github.halitkalayci.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/io.github.halitkalayci.AppTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728382323518</updated>
-      <workItem from="1728382324748" duration="745000" />
+      <workItem from="1728382324748" duration="1706000" />
     </task>
     <servers />
   </component>

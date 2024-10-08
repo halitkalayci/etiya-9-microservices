@@ -48,6 +48,13 @@
 			<artifactId>spring-cloud-config-client</artifactId>
 			<version>4.1.3</version>
 		</dependency>
+
+		<dependency>
+			<groupId>io.github.halitkalayci</groupId>
+			<artifactId>core</artifactId>
+			<version>1.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>

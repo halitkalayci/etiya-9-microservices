@@ -27,6 +27,11 @@
     </license>
   </licenses>
 
+  <scm>
+    <url>https://github.com/halitkalayci/etiya-9-microservices</url>
+    <connection>scm:git:git://github.com/halitkalayci/etiya-9-microservices</connection>
+  </scm>
+
   <distributionManagement>
     <repository>
       <id>central</id>

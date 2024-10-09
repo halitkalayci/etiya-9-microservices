@@ -37,12 +37,28 @@ services:
       - common
     environment:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8888/eureka/
-    depends_on:
+    depends_on: # container başlaması
       - eureka
-
+    healthcheck: # spring başlaması
+      test: ["CMD", "curl", "-f", "http://eureka:8888/actuator/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
+    volumes:
+      - mongodb_data:/data/db
 volumes:
   mysql_data:
   postgres_data:
+  mongodb_data:
 
 networks:
   common:

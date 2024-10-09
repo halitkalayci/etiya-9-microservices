@@ -6,7 +6,7 @@ spring:
   cloud:
     config:
       uri: http://localhost:8001
-      profile: local
+      profile: dev
       label: master
 
 # http://localhost:8001/productservice/dev/master

@@ -1,5 +1,6 @@
 package com.etiya.productservice.controller;
 
+import io.github.halitkalayci.ExampleService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductsController {
   @GetMapping
   public String get() {
-    return "Hello from product service";
+    ExampleService exampleService = new ExampleService();
+    return exampleService.hello();
   }
 }

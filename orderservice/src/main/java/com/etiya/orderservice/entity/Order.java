@@ -1,6 +1,5 @@
 package com.etiya.orderservice.entity;
 
-import com.etiya.orderservice.dto.Product;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,6 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.UUID;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -24,7 +24,7 @@ public class Order
   private LocalDate orderDate;
   private float totalPrice;
   private List<Product> products;
-  private Long customerId;
+  private UUID customerId;
   private String customerName;
   private String customerSurname;
 }

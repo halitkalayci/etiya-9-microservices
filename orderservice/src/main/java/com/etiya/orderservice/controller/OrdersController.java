@@ -1,5 +1,6 @@
 package com.etiya.orderservice.controller;
 
+import com.etiya.orderservice.dto.CreateOrderRequest;
 import com.etiya.orderservice.entity.Order;
 import com.etiya.orderservice.service.OrderService;
 import lombok.RequiredArgsConstructor;
@@ -21,9 +22,9 @@ public class OrdersController
   }
 
   @PostMapping()
-  public ResponseEntity add(@RequestBody Order order)
+  public ResponseEntity add(@RequestBody CreateOrderRequest orderRequest)
   {
-    orderService.add(order);
+    orderService.add(orderRequest);
     return ResponseEntity.ok("Eklendi");
   }
 }

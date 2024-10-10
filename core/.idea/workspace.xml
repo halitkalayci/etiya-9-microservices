@@ -5,78 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d20613c-0f89-4140-91d9-1480c671e9a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__io_github_halitkalayci_core_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/halitkalayci/ExampleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/App.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/class-use/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/class-use/App.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/legal/jqueryUI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/type-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-publishing/central-bundle.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/central-publishing/central-bundle.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-javadoc.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-javadoc.jar.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-javadoc.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-javadoc.jar.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-javadoc.jar.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-sources.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-sources.jar.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-sources.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-sources.jar.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0-sources.jar.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.jar.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.jar.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.jar.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.pom.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.pom.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.pom.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.pom.sha256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0/core-1.0.pom.sha512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/core-1.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/core-1.0-javadoc.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/core-1.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/core-1.0-sources.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/core-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/core-1.0.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/core-1.0.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/core-1.0.pom.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-io.github.halitkalayci.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-io.github.halitkalayci.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/io.github.halitkalayci.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/io.github.halitkalayci.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/github/halitkalayci/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/github/halitkalayci/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../podman-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../podman-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../productservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productservice/src/main/java/com/etiya/productservice/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productservice/src/main/java/com/etiya/productservice/controller/ProductsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../productservice/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

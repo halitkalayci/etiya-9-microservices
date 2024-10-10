@@ -1,0 +1,19 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://root:root@localhost:27017/orderdb?authSource=admin"
+  application:
+    name: orderservice
+
+server:
+  port: 8082
+
+eureka:
+  url: http://localhost:8888
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/

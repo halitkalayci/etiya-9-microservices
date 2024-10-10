@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/etiya9.microservices.iml" filepath="$PROJECT_DIR$/etiya9.microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderservice/orderservice.iml" filepath="$PROJECT_DIR$/orderservice/orderservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/productservice/productservice.iml" filepath="$PROJECT_DIR$/productservice/productservice.iml" />
     </modules>
   </component>

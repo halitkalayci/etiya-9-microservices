@@ -12,6 +12,7 @@
         <module name="gateway" />
         <module name="eureka" />
         <module name="productservice" />
+        <module name="orderservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="customerservice" target="19" />
       <module name="eureka" target="19" />
       <module name="gateway" target="19" />
+      <module name="orderservice" target="19" />
       <module name="productservice" target="19" />
     </bytecodeTargetLevel>
   </component>
@@ -29,6 +31,7 @@
       <module name="customerservice" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="orderservice" options="-parameters" />
       <module name="productservice" options="-parameters" />
     </option>
   </component>

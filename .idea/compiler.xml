@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="configserver" />
-        <module name="customerservice" />
-        <module name="gateway" />
         <module name="eureka" />
         <module name="productservice" />
+        <module name="configserver" />
+        <module name="identityservice" />
+        <module name="customerservice" />
+        <module name="gateway" />
         <module name="orderservice" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="customerservice" target="19" />
       <module name="eureka" target="19" />
       <module name="gateway" target="19" />
+      <module name="identityservice" target="19" />
       <module name="orderservice" target="19" />
       <module name="productservice" target="19" />
     </bytecodeTargetLevel>
@@ -31,6 +33,7 @@
       <module name="customerservice" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="identityservice" options="-parameters" />
       <module name="orderservice" options="-parameters" />
       <module name="productservice" options="-parameters" />
     </option>

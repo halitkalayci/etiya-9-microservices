@@ -1,2 +1,2 @@
 io\github\halitkalayci\App.class
-io\github\halitkalayci\ExampleService.class
+io\github\halitkalayci\security\BaseJwtService.class

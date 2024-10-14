@@ -1,2 +1,3 @@
 io\github\halitkalayci\App.class
+io\github\halitkalayci\security\BaseSecurityConfiguration.class
 io\github\halitkalayci\security\BaseJwtService.class

@@ -1,6 +1,8 @@
 package com.etiya.identityservice.service.auth;
 
 import com.etiya.identityservice.dto.LoginRequest;
+import com.etiya.identityservice.dto.RegisterRequest;
+import com.etiya.identityservice.entity.User;
 import com.etiya.identityservice.service.user.UserService;
 import io.github.halitkalayci.security.BaseJwtService;
 import lombok.RequiredArgsConstructor;
@@ -27,6 +29,18 @@ public class AuthServiceImpl implements AuthService
     if(!passwordMatching)
       throw new RuntimeException("E-posta veya şifre hatalı.");
 
+    return baseJwtService.generateToken(user.getUsername());
+  }
+
+  @Override
+  public String register(RegisterRequest registerRequest) {
+    User userToAdd =new User();
+    userToAdd.setEmail(registerRequest.getEmail());
+    userToAdd.setName(registerRequest.getName());
+    userToAdd.setSurname(registerRequest.getSurname());
+    userToAdd.setIdentityNo(registerRequest.getIdentityNo());
+    userToAdd.setPassword(passwordEncoder.encode(registerRequest.getPassword()));
+    User user = userService.create(userToAdd);
     return baseJwtService.generateToken(user.getUsername());
   }
 }

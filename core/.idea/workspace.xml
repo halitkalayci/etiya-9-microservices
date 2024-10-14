@@ -5,7 +5,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d20613c-0f89-4140-91d9-1480c671e9a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/halitkalayci/security/BaseSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/BaseSecurityConfiguration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/class-use/BaseSecurityConfiguration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-javadoc.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-javadoc.jar.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-javadoc.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-javadoc.jar.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-javadoc.jar.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-sources.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-sources.jar.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-sources.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-sources.jar.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6-sources.jar.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.jar.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.jar.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.jar.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.pom.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.pom.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.pom.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.6/core-1.0.6.pom.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/security/BaseSecurityConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.6-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.6-javadoc.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.6-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.6-sources.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.6.pom.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/core/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/dto/RegisterRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/etiya/event/OrderCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/com/etiya/event/OrderCreatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/class-use/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/class-use/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/BaseJwtService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/BaseJwtService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/class-use/BaseJwtService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/class-use/BaseJwtService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-publishing/central-bundle.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/central-publishing/central-bundle.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-javadoc.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-javadoc.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-javadoc.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-javadoc.jar.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-javadoc.jar.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-sources.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-sources.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-sources.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-sources.jar.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5-sources.jar.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.jar.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.jar.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.pom.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/central-staging/io/github/halitkalayci/core/1.0.5/core-1.0.5.pom.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.5-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.5-javadoc.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.5-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.5-sources.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.5.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.5.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/core-1.0.5.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-io.github.halitkalayci.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-io.github.halitkalayci.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/io.github.halitkalayci.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/io.github.halitkalayci.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/IdentityserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/IdentityserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/service/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/service/auth/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/service/auth/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/service/auth/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../podman-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../podman-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +137,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/klyyc/Desktop/Projects/Java/etiya9.microservices&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/klyyc/Desktop/Projects/Java/etiya9.microservices",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "a74ad8dfacd4f985eb3977517615ce25"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.halitkalayci.App" />
@@ -76,7 +181,8 @@
       <workItem from="1728384790592" duration="15000" />
       <workItem from="1728458666443" duration="1305000" />
       <workItem from="1728555820846" duration="2000" />
-      <workItem from="1728630026906" duration="3988000" />
+      <workItem from="1728630026906" duration="4592000" />
+      <workItem from="1728887909711" duration="738000" />
     </task>
     <servers />
   </component>

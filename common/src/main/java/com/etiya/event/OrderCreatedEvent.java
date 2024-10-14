@@ -20,5 +20,5 @@ public class OrderCreatedEvent {
     this.id = id;
   }
 }
-// Pztesi: IDentity service test
+// Pztesi: Identity service test
 // Frontend

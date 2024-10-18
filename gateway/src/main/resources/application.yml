@@ -8,11 +8,15 @@ spring:
           - id: customer-service.routing
             uri: lb://customerservice # load-balancing
             predicates:
-              - Path=/api/customers/**
+              - Path=/api/v1/customers/**
           - id: product-service.routing
             uri: lb://productservice
             predicates:
-              - Path=/api/products/**
+              - Path=/api/v1/products/**
+          - id: identity-service.routing
+            uri: lb://identityservice
+            predicates:
+              - Path=/api/v1/auth/**
           - id: eureka.routing
             uri: ${eureka.url}
             predicates:

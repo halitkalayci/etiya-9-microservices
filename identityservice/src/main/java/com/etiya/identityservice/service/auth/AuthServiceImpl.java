@@ -8,6 +8,7 @@ import com.etiya.identityservice.service.user.UserService;
 import io.github.halitkalayci.security.BaseJwtService;
 import lombok.RequiredArgsConstructor;
 import org.antlr.v4.runtime.Token;
+import org.bouncycastle.util.MemoableResetException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -27,6 +28,9 @@ public class AuthServiceImpl implements AuthService
   @Override
   public TokenResponse login(LoginRequest loginRequest) {
     UserDetails user = userService.loadUserByUsername(loginRequest.getEmail());
+    if(user==null)
+      throw new RuntimeException("E-posta veya şifre hatalı.");
+
     boolean passwordMatching = passwordEncoder.matches(loginRequest.getPassword(), user.getPassword());
     if(!passwordMatching)
       throw new RuntimeException("E-posta veya şifre hatalı.");

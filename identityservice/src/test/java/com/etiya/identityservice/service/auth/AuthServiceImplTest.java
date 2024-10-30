@@ -37,6 +37,8 @@ class AuthServiceImplTest {
                 baseJwtService
         );
     }
+    // 1- Validation testler nasıl yapılır araştırıp 1 örnek test case yazılmalı.
+    // 2- En az 2 service'e olumlu olumsuz senaryo testleri yazılmalı
 
     @Test
     public void loginWithValidCredentialsShouldGenerateJwt()
@@ -50,7 +52,6 @@ class AuthServiceImplTest {
         LoginRequest loginRequest = new LoginRequest("halit@kodlama.io", password);
         TokenResponse response = authService.login(loginRequest);
         assert true;
-        // assert => test fonksiyonlarının "return"'u
     }
 
     @Test

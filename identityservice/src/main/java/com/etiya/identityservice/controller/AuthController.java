@@ -1,10 +1,13 @@
 package com.etiya.identityservice.controller;
 
+import com.etiya.identityservice.dto.ExampleDto;
 import com.etiya.identityservice.dto.LoginRequest;
 import com.etiya.identityservice.dto.RegisterRequest;
 import com.etiya.identityservice.dto.TokenResponse;
 import com.etiya.identityservice.service.auth.AuthService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.MessageSource;
+import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = {"http://localhost:4200", "http://localhost:3000"})
 public class AuthController {
   private final AuthService authService;
+  private final MessageSource messageSource;
 
   @PostMapping("login")
   public ResponseEntity<TokenResponse> login(@RequestBody LoginRequest loginRequest){
@@ -25,5 +29,16 @@ public class AuthController {
   @PostMapping("register")
   public ResponseEntity<TokenResponse> register(@RequestBody RegisterRequest registerRequest){
     return ResponseEntity.ok(authService.register(registerRequest));
+  }
+
+  @PostMapping("example")
+  public ResponseEntity<String> example(@RequestBody ExampleDto exampleDto) {
+    return ResponseEntity.ok(
+            messageSource.getMessage(
+                    "goodbye",
+                    new Object[]{ exampleDto.getName(), exampleDto.getLastName() },
+                    LocaleContextHolder.getLocale()
+            )
+    );
   }
 }

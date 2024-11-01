@@ -40,6 +40,8 @@ class AuthServiceImplTest {
     // 1- Validation testler nasıl yapılır araştırıp 1 örnek test case yazılmalı.
     // 2- En az 2 service'e olumlu olumsuz senaryo testleri yazılmalı
 
+// spring boot multi-language
+    // spring-stream ile kafka-rabbitmq soyutlaması
     @Test
     public void loginWithValidCredentialsShouldGenerateJwt()
     {

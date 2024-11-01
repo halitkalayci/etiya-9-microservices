@@ -19,10 +19,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @RequiredArgsConstructor
 public class SecurityConfiguration {
   private final UserService userService;
-  @Bean
-  public PasswordEncoder passwordEncoder() {
-    return new BCryptPasswordEncoder();
-  }
+  private final PasswordEncoder passwordEncoder;
 
   // JwtService'e ctor'dan veri geçme esnekliği
   @Bean
@@ -34,7 +31,7 @@ public class SecurityConfiguration {
   public AuthenticationProvider authenticationProvider()
   {
     DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-    provider.setPasswordEncoder(passwordEncoder());
+    provider.setPasswordEncoder(passwordEncoder);
     provider.setUserDetailsService(userService);
     return provider;
   }

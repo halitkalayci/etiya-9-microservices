@@ -1,3 +1,6 @@
+io\github\halitkalayci\utils\exception\types\BusinessException.class
+io\github\halitkalayci\annotations\EnableCore.class
 io\github\halitkalayci\App.class
 io\github\halitkalayci\security\BaseSecurityConfiguration.class
 io\github\halitkalayci\security\BaseJwtService.class
+io\github\halitkalayci\utils\exception\handlers\GlobalExceptionHandler.class

@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.halitkalayci"},{"l":"io.github.halitkalayci.security"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.halitkalayci"},{"l":"io.github.halitkalayci.annotations"},{"l":"io.github.halitkalayci.security"},{"l":"io.github.halitkalayci.utils.exception.handlers"},{"l":"io.github.halitkalayci.utils.exception.types"}];updateSearchResults();

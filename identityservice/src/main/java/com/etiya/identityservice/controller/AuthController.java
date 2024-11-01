@@ -5,6 +5,7 @@ import com.etiya.identityservice.dto.LoginRequest;
 import com.etiya.identityservice.dto.RegisterRequest;
 import com.etiya.identityservice.dto.TokenResponse;
 import com.etiya.identityservice.service.auth.AuthService;
+import io.github.halitkalayci.utils.exception.types.BusinessException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.validator.internal.engine.messageinterpolation.DefaultLocaleResolver;
@@ -39,12 +40,6 @@ public class AuthController {
 
   @PostMapping("example")
   public ResponseEntity<String> example(@RequestBody ExampleDto exampleDto) {
-    return ResponseEntity.ok(
-            messageSource.getMessage(
-                    "goodbye",
-                    new Object[]{ exampleDto.getName(), exampleDto.getLastName() },
-                    LocaleContextHolder.getLocale()
-            )
-    );
+    throw new BusinessException("Deneme");
   }
 }

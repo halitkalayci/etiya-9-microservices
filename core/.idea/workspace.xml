@@ -5,7 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d20613c-0f89-4140-91d9-1480c671e9a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/halitkalayci/annotations/EnableCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/halitkalayci/utils/exception/handlers/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/halitkalayci/utils/exception/types/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/handlers/GlobalExceptionHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/handlers/class-use/GlobalExceptionHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/handlers/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/handlers/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/handlers/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/types/BusinessException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/types/class-use/BusinessException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/types/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/types/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/utils/exception/types/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/utils/exception/handlers/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/utils/exception/types/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.7-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.7-javadoc.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.7-sources.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.7.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.7.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/core-1.0.7.pom.asc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/class-use/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/class-use/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/BaseJwtService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/BaseJwtService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/BaseSecurityConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/BaseSecurityConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/class-use/BaseJwtService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/class-use/BaseJwtService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/class-use/BaseSecurityConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/class-use/BaseSecurityConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/io/github/halitkalayci/security/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/tag-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/security/BaseJwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/security/BaseJwtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/security/BaseSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/halitkalayci/security/BaseSecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-io.github.halitkalayci.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-io.github.halitkalayci.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/io.github.halitkalayci.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/io.github.halitkalayci.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/github/halitkalayci/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/github/halitkalayci/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/IdentityserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/IdentityserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/core/configuration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/core/configuration/CustomMessageSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/core/configuration/CustomMessageSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/core/configuration/GlobalExHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../identityservice/src/main/java/com/etiya/identityservice/core/configuration/GlobalExHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +82,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -33,18 +100,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/klyyc/Desktop/Projects/Java/etiya9.microservices",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "a74ad8dfacd4f985eb3977517615ce25"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/klyyc/Desktop/Projects/Java/etiya9.microservices&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a74ad8dfacd4f985eb3977517615ce25&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.halitkalayci.App" />
@@ -79,6 +146,7 @@
       <workItem from="1728555820846" duration="2000" />
       <workItem from="1728630026906" duration="4592000" />
       <workItem from="1728887909711" duration="1757000" />
+      <workItem from="1730461020124" duration="533000" />
     </task>
     <servers />
   </component>

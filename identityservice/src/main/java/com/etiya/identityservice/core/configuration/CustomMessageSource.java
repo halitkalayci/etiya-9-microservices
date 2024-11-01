@@ -11,7 +11,6 @@ import org.springframework.web.client.RestTemplate;
 
 import jakarta.annotation.PostConstruct;
 
-@Component
 public class CustomMessageSource extends AbstractMessageSource {
 
   private final RestTemplate restTemplate = new RestTemplate();

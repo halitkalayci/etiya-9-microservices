@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>io.github.halitkalayci</groupId>
 			<artifactId>core</artifactId>
-			<version>1.0.5</version>
+			<version>1.0.8</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1254">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core/src/main/java" charset="UTF-8" />
@@ -8,10 +8,12 @@
     <file url="file://$PROJECT_DIR$/eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/identityservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/identityservice/src/main/java/com/etiya/identityservice/controller/AuthController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/identityservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orderservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orderservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/productservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/translation-service/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -5,11 +5,17 @@ import com.etiya.identityservice.dto.LoginRequest;
 import com.etiya.identityservice.dto.RegisterRequest;
 import com.etiya.identityservice.dto.TokenResponse;
 import com.etiya.identityservice.service.auth.AuthService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.hibernate.validator.internal.engine.messageinterpolation.DefaultLocaleResolver;
+import org.hibernate.validator.internal.engine.messageinterpolation.DefaultLocaleResolverContext;
+import org.springframework.context.MessageSource;
+import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.LocaleResolver;
 
 
 @RestController
@@ -21,7 +27,7 @@ public class AuthController {
   private final MessageSource messageSource;
 
   @PostMapping("login")
-  public ResponseEntity<TokenResponse> login(@RequestBody LoginRequest loginRequest){
+  public ResponseEntity<TokenResponse> login(@Valid @RequestBody LoginRequest loginRequest){
     return ResponseEntity.ok(authService.login(loginRequest));
   }
 

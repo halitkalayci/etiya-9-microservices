@@ -1,15 +1,13 @@
 package com.etiya.identityservice.core.configuration;
 
-
 import jakarta.annotation.PostConstruct;
-import org.springframework.context.support.AbstractMessageSource;
-import org.springframework.stereotype.Component;
-import org.springframework.web.client.RestTemplate;
-
 import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
+import org.springframework.context.support.AbstractMessageSource;
+import org.springframework.stereotype.Component;
+import org.springframework.web.client.RestTemplate;
 
 @Component
 public class CustomMessageSource extends AbstractMessageSource {

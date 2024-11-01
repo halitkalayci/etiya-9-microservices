@@ -1,4 +1,17 @@
 spring:
+  cloud:
+    stream:
+      function:
+        definition: sendEvent;processEvent  # Fonksiyon isimleri burada tanımlanır
+      bindings:
+        processEvent-in-0:
+          destination: orderTopic
+          group: newOrderGroup
+        sendEvent-out-0:
+          destination: orderTopic  # Supplier fonksiyonu için çıkış kanalı
+      kafka:
+        binder:
+          brokers: localhost:9092
   data:
     mongodb:
       uri: "mongodb://root:root@localhost:27017/orderdb?authSource=admin"

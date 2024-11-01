@@ -1,7 +1,9 @@
 package com.etiya.event;
 
 
-public class OrderCreatedEvent {
+import java.io.Serializable;
+
+public class OrderCreatedEvent implements Serializable {
 
   public OrderCreatedEvent() {
   }

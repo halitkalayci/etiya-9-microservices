@@ -8,6 +8,7 @@ import com.etiya.orderservice.entity.Order;
 import com.etiya.orderservice.entity.Product;
 import com.etiya.orderservice.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
@@ -21,7 +22,7 @@ import java.util.UUID;
 public class OrderServiceImpl implements OrderService{
   private final OrderRepository orderRepository;
   private final ProductServiceClient productServiceClient;
-  private final KafkaTemplate<String, Object> kafkaTemplate;
+  private final StreamBridge streamBridge;
   @Override
   public List<Order> getAll() {
     return orderRepository.findAll();
@@ -32,26 +33,22 @@ public class OrderServiceImpl implements OrderService{
     // Customer bilgileri
 
 
-    List<Product> response = productServiceClient.findAllByIds(
-            createOrderRequest.getProducts().stream().map(ProductForOrderDto::getProductId).toList()
-    );
+    List<Product> response = new ArrayList<>();
 
     //TODO: Refactor as business rules.
     // OrderBusinessRules.AllProductsShouldExist()
-    if(response.size() != createOrderRequest.getProducts().size()) //
-    {
-      // Ürün sayısı uyuşmuyor..
-    }
+
     // 293 -> 5 adet istenmiş stok yeterli mi?
     Order order = new Order();
     order.setOrderDate(LocalDate.now());
     order.setCustomerId(createOrderRequest.getCustomerId());
     order.setProducts(response);
-    orderRepository.save(order); // Sipariş alındı.
+    //orderRepository.save(order); // Sipariş alındı.
 
     // Diğer 5 servis bir işlem yapacak..
     // Kafka -> NewOrderCreated -> { id:1, customerId:2, products:[] }
     // Subscriber-(Consumer) -> NewOrderCreated kafkada ne zaman oluşturulsa ben onu alıp işlicem.
-    kafkaTemplate.send("orderTopic", new OrderCreatedEvent(order.getId()));
+    OrderCreatedEvent event = new OrderCreatedEvent(order.getId());
+    streamBridge.send("sendEvent-out-0", event); // 'sendEvent-out-0' çıkış kanalı üzerinden gönder
   }
 }

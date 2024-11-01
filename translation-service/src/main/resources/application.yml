@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: translation-service
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/translations"
+    username: postgres
+    password: test
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    showSql: true
+    hibernate:
+      ddlAuto: update
+server:
+  port: 8070
+
+eureka:
+  url: http://localhost:8888
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/

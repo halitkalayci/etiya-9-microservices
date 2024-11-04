@@ -15,7 +15,11 @@ spring:
           brokers: localhost:9092
           consumerProperties:
             group.id: customer-service-group
-
+      rabbit:
+        binder:
+          addresses: localhost:5672
+          username: guest
+          password: guest
   application:
     name: customerservice
   datasource:

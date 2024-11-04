@@ -12,6 +12,11 @@ spring:
       kafka:
         binder:
           brokers: localhost:9092
+      rabbit:
+        binder:
+          addresses: localhost:5672
+          username: guest
+          password: guest
   data:
     mongodb:
       uri: "mongodb://root:root@localhost:27017/orderdb?authSource=admin"

@@ -48,7 +48,8 @@ public class OrderServiceImpl implements OrderService{
     // Diğer 5 servis bir işlem yapacak..
     // Kafka -> NewOrderCreated -> { id:1, customerId:2, products:[] }
     // Subscriber-(Consumer) -> NewOrderCreated kafkada ne zaman oluşturulsa ben onu alıp işlicem.
-    OrderCreatedEvent event = new OrderCreatedEvent(order.getId());
-    streamBridge.send("sendEvent-out-0", event); // 'sendEvent-out-0' çıkış kanalı üzerinden gönder
+    OrderCreatedEvent orderCreatedEvent = new OrderCreatedEvent();
+    orderCreatedEvent.setId(order.getId());
+    streamBridge.send("orderCreatedEvent-out-0", orderCreatedEvent);
   }
 }

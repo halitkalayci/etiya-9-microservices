@@ -77,6 +77,15 @@ services:
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_LOG_RETENTION_HOURS: 168
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq3
+    ports:
+      - "5672:5672"  # RabbitMQ iletişim portu
+      - "15672:15672" # RabbitMQ yönetim konsolu portu
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
 volumes:
   mysql_data:
   postgres_data:
